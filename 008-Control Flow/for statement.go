@@ -5,7 +5,6 @@ import "fmt"
 func main() {
 
 	for x := 1; x <= 10; x++ {
-
 		fmt.Printf("%d\t", x)
 	}
 
@@ -13,7 +12,6 @@ func main() {
 
 	y := 1
 	for y <= 10 {
-
 		fmt.Printf("%d\t", y)
 		y++
 	}
@@ -22,16 +20,13 @@ func main() {
 
 	z := 1
 	for {
-
 		if z > 10 {
 			break
 		}
-
 		fmt.Printf("%d\t", z)
 		z++
 
 	}
-
 	fmt.Println("\nDone.")
 
 }
